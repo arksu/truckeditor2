@@ -1,0 +1,35 @@
+object view_form: Tview_form
+  Left = 0
+  Top = 0
+  BorderStyle = bsSizeToolWin
+  Caption = 'view_form'
+  ClientHeight = 248
+  ClientWidth = 276
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnMouseWheelDown = FormMouseWheelDown
+  OnMouseWheelUp = FormMouseWheelUp
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 13
+  object view_panel: TPanel
+    Left = 0
+    Top = 0
+    Width = 276
+    Height = 248
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'view_panel'
+    TabOrder = 0
+    OnDblClick = view_panelDblClick
+    ExplicitWidth = 572
+    ExplicitHeight = 334
+  end
+end
